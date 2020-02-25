@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TV Show</string>
+
+    <string name="title">Title</string>
+    <string name="date">Date</string>
+    <string name="notConnected">Internet Not Connected</string>
+    <string name="pleasewait">Please Wait</string>
+    <string name="Alert">Alert</string>
+    <string name="wanttoexit">Want to Exit....?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>

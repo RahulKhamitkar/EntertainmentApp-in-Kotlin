@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/list_Fragment">
+
+    <fragment
+        android:id="@+id/list_Fragment"
+        android:name="com.rahul.tvshow.View.List_Fragment"
+        android:label="List_Fragment">
+        <action
+            android:id="@+id/action_list_Fragment_to_details_Fragment"
+            app:destination="@id/details_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/details_Fragment"
+        android:name="com.rahul.tvshow.View.Details_Fragment"
+        android:label="Details_Fragment">
+        <action
+            android:id="@+id/action_details_Fragment_to_list_Fragment"
+            app:destination="@id/list_Fragment" />
+    </fragment>
+</navigation>
