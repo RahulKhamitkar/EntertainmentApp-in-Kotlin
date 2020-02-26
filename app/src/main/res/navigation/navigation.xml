@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
     app:startDestination="@id/list_Fragment">
 
@@ -11,6 +12,9 @@
         <action
             android:id="@+id/action_list_Fragment_to_details_Fragment"
             app:destination="@id/details_Fragment" />
+        <action
+            android:id="@+id/actionThemeFragment"
+            app:destination="@id/darkTheme_Fragment" />
     </fragment>
     <fragment
         android:id="@+id/details_Fragment"
@@ -19,5 +23,16 @@
         <action
             android:id="@+id/action_details_Fragment_to_list_Fragment"
             app:destination="@id/list_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/darkTheme_Fragment"
+        android:name="com.rahul.tvshow.View.DarkTheme_Fragment"
+        android:label="fragment_dark_theme_"
+        tools:layout="@layout/fragment_dark_theme_" >
+        <action
+            android:id="@+id/action_darkTheme_Fragment_to_list_Fragment"
+            app:destination="@id/list_Fragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
     </fragment>
 </navigation>

@@ -9,4 +9,13 @@
     <string name="wanttoexit">Want to Exit....?</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="theme_title">Themes:</string>
+    <string name="light_theme">Dark theme</string>
+    <string name="dark_theme">Light theme</string>
+    <string name="system_theme">Use system theme</string>
+    <string name="battery_saver_theme">Battery saver theme</string>
 </resources>

@@ -47,6 +47,7 @@
                     android:layout_height="wrap_content"
                     android:padding="2dp"
                     android:hint="@string/title"
+                    style="@style/PrimaryText"
                     android:textSize="16dp"
                     android:textStyle="bold"
                     android:id="@+id/iTitle"
@@ -56,6 +57,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/date"
+                    style="@style/SecondaryText"
+
                     android:textSize="12dp"
                     android:textStyle="normal"
                     android:id="@+id/iDate"
@@ -72,6 +75,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="3dp"
+                style="@style/SecondaryText"
                 android:id="@+id/iDiscription"
                 android:hint="Discription"/>
 
